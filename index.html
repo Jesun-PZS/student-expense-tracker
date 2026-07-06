@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Expense Tracker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Expense Tracker</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
 
-<h1>Student Expense Tracker</h1>
+    <h1>Student Expense Tracker</h1>
 
-<input type="text" id="expenseName" placeholder="Expense Name">
+    <input type="text" id="expenseName" placeholder="Expense Name">
 
-<input type="number" id="expenseAmount" placeholder="Amount">
+    <input type="number" id="expenseAmount" placeholder="Amount">
 
-<button onclick="addExpense()">Add Expense</button>
+    <button onclick="addExpense()">Add Expense</button>
 
-<h3>Expense List</h3>
+    <h3>Expense List</h3>
 
-<ul id="expenseList"></ul>
+    <ul id="expenseList"></ul>
 
-<script src="script.js"></script>
+    <h3>Total: <span id="total">0</span> BDT</h3>
+
+    <script src="script.js"></script>
 
 </body>
 
