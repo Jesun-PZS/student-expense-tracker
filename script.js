@@ -3,6 +3,7 @@ let total = 0;
 function addExpense() {
 
     let name = document.getElementById("expenseName").value;
+
     let amount = Number(document.getElementById("expenseAmount").value);
 
     if (name === "" || amount <= 0) {
@@ -23,5 +24,6 @@ function addExpense() {
     document.getElementById("total").textContent = total;
 
     document.getElementById("expenseName").value = "";
+
     document.getElementById("expenseAmount").value = "";
 }
